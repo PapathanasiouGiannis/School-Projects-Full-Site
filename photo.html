@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Θάλασσα και Ηρεμία</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#06141a;--accent:#60a5fa;--muted:#a9bcc6}
+  body{margin:0;min-height:100vh;background:linear-gradient(180deg,var(--bg),#041219);font-family:Inter;color:#eaf6fb;display:flex;align-items:center;justify-content:center;padding:22px}
+  .wrap{width:100%;max-width:920px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border-radius:16px;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,0.6)}
+  h1{margin:0 0 12px 0;color:var(--accent)}
+  .photo{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
+  img{max-width:480px;border-radius:12px;border:4px solid rgba(96,165,250,0.06);box-shadow:0 18px 40px rgba(6,182,212,0.06);transition:transform .4s;display:block}
+  img:hover{transform:scale(1.02) rotate(-0.4deg)}
+  .desc{max-width:360px;color:var(--muted)}
+  a.back{display:inline-block;margin-top:14px;color:var(--accent);text-decoration:underline;font-weight:700}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Θάλασσα και Ηρεμία</h1>
+    <div class="photo">
+      <img src="media/image.jpg" alt="Η γατούλα μου" onerror="this.style.display='none'">
+      <div class="desc">
+        <p>Αυτή είναι η αγαπημένη μου γατούλα — τρυφερή και παιχνιδιάρα. Της αρέσει να κυνηγάει κορδέλες και να κοιμάται στον ήλιο.</p>
+        <a class="back" href="index.html">⬅ Επιστροφή στην Κεντρική Σελίδα</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
